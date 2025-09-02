@@ -3,24 +3,22 @@
   height: 100vh;
   width: 100vw;
   overflow-x: hidden;
-  background-color: black;
+  background-color: #000000;
 }
 
 /* Logo */
 .logo {
   height: 10vh;
   width: 10vh;
-  left: 0px;
-  position: absolute;
 }
 
 /* Title */
 .title {
   font-family: "Sansation", sans-serif;
-  font-weight: 700;
-  font-size: larger;
+  font-weight: 300;
+  font-size: medium;
   color: white;
-  margin-right: auto; /* pushes nav buttons to the right */
+  margin-right: auto; 
 }
 
 /* Header wrapper */
@@ -98,10 +96,19 @@
 /* Responsive */
 @media (max-width: 768px) {
   .nav_desktop {
-    display: none; /* hide desktop nav */
+    display: none; 
   }
   .hamburger {
     display: block;
     margin-left: auto;
   }
+}
+.footer
+{
+    background-color: rgb(0, 0, 0);
+    height: 40%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
